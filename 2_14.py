@@ -13,3 +13,8 @@ if __name__ == "__main__":
     print ("Dlugosc najdluszego wyrazu to:", max(list1))
     print ("Najdluszy wyraz to:", findWord)
 
+    #najdluzszy napis i jego dlugosc- alternatywa
+    print(max(line.split(), key=len))
+    print(len(max(line.split(), key=len)))
+
+

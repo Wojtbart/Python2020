@@ -7,4 +7,7 @@ if __name__ == "__main__":
     for word in words:
         list1.append(len(word))
     print("laczna długosc napisow w wyrazie line to:", sum(list1))
+    
+    #alternatywa i najlepszy sposób
+    print(sum(len(words) for words in line.split()))
 

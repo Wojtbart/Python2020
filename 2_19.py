@@ -6,3 +6,5 @@ if __name__ == "__main__":
     for i in range(len(L)):
         L[i] = str(L[i]).zfill(3)
     print (L)
+    #alternatywa i najlepsze rozwiazanie
+    print(" ".join(str(x).zfill(3) for x in L))

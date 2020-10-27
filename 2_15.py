@@ -6,3 +6,6 @@ if __name__ == "__main__":
         myString+=str(digit)
     print("Zlozony napis to: ",myString)
 
+    #alternatywa
+    print("".join(str(x) for x in L))
+

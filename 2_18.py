@@ -8,3 +8,6 @@ if __name__ == "__main__":
         if(digit=='0'):
             counter=counter+1
     print("Liczba zer w liczbie to: "+str(counter))
+
+    #test na istnienie zera
+    any(x=='0' for x in str(bigNUmber))
