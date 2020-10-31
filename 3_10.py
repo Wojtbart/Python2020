@@ -60,6 +60,6 @@ if __name__ == "__main__":
     # sprawdzenie czy wpisalismy liczbe rzymska
     for x in romanNumber:
         if x not in Dictionary:
-            print("To nie jest popranwa liczba rzymska!!!")
+            print("To nie jest poprawna liczba rzymska!!!")
             quit()
     print(roman2int(romanNumber))
