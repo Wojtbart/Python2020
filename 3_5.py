@@ -22,6 +22,7 @@ def draw(size):
         else:
             for m in range(4):
                 drawStr += " "
+    # metoda rjust() ważna
     # drawStr += str(y+1)
     # outfile = open('test.txt', 'w')
     # outfile.write(drawStr)
