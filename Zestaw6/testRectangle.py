@@ -10,7 +10,7 @@ class TestRectangle(unittest.TestCase):
         self.rec1 = Rectangle(1, 2, 5, 4)
         self.rec2 = Rectangle(2, 0, 0, 2)
         self.rec3 = Rectangle(1, 1, -1, -1)
-        self.rec4 = Rectangle(6, 4, 1, 2)
+        self.rec4 = Rectangle(6, 4, 1, 2)change
 
     def test__init__(self):
         self.assertEqual(self.rec1, Rectangle(1, 2, 5, 4))
